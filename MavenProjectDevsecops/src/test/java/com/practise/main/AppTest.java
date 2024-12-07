@@ -23,9 +23,7 @@ public class AppTest {
     
     @Test
 //<<<<<<< HEAD
-    public void subWithtrueChangeByDev() {
-/    public void madeChangesToCreateConflict() {
-//>>>>>>> branch 'master' of https://github.com/SahilDige/Gitcheck.git
+    public void changedforconflict() {
         App app1 =new App();
         int expected=30;
         int actual=app1.sub(40, 10);
