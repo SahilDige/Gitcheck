@@ -22,7 +22,7 @@ public class AppTest {
     }
     
     @Test
-//<<<<<<< HEAD
+//
     public void changedforconflict() {
         App app1 =new App();
         int expected=30;
