@@ -14,7 +14,7 @@ public class AppTest {
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue() {
+    public void shouldAnswerWithtrue() {
         App app1 =new App();
         int expected=30;
         int actual=app1.sum(10, 20);
