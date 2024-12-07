@@ -1,5 +1,6 @@
 package com.practise.main;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
@@ -14,6 +15,9 @@ public class AppTest {
      */
     @Test
     public void shouldAnswerWithTrue() {
-        assertTrue(true);
+        App app1 =new App();
+        int expected=30;
+        int actual=app1.sum(10, 20);
+    	assertEquals(expected, actual);
     }
 }
