@@ -21,7 +21,7 @@ public class AppTest {
     	assertEquals(expected, actual);
     }
     
-    @Test.
+    @Test
 //<<<<<<< HEAD
     public void changedforconflict() {
         App app1 =new App();
