@@ -24,8 +24,7 @@ public class AppTest {
     @Test
 //<<<<<<< HEAD
     public void subWithtrueChangeByDev() {
-//=======
-//    public void madeChangesToCreateConflict() {
+/    public void madeChangesToCreateConflict() {
 //>>>>>>> branch 'master' of https://github.com/SahilDige/Gitcheck.git
         App app1 =new App();
         int expected=30;
